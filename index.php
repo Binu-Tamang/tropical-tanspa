@@ -15,5 +15,15 @@
     <!-- header parts start -->
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
+
+<!-- banner slider html  -->
+
+     <!-- ---------------------------footer starts--------------------- -->
+     <?php
+
+include('inc/footer.php');
+include('inc/js.php')
+
+    ?>
 </body>
 </html>
