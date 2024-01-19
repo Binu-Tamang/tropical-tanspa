@@ -15,11 +15,18 @@
 <!-- Aos script -->
 <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+<!-- slick jd CDN -->
+<script type="text/javascript" src="assets/plugin/slick/slick.min.js"></script>
+
 <!-- Owl js -->
 <script defer src="assets/js/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- js lightbox js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
 
 <!-- custom js -->

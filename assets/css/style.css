@@ -1,9 +1,8 @@
-*{
-  box-sizing: border-box;
-  margin: 0px auto;
-  padding: 0px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 html {
   overflow-x: hidden;
 }
@@ -20,6 +19,29 @@ p{
   letter-spacing: 1px;
   margin: 0;
 }
+
+.web-a {
+  background: #9DB994;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid #9DB994;
+  transition: 0.3s ease;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.web-a:hover {
+  background: transparent;
+  border: 1px solid #9DB994;
+  color: #9DB994;
+}
+section {
+  margin-top: 5rem;
+}
+
 :root{
  --main_color:#385115;
  --n-main_color:#9DB994;
@@ -64,3 +86,300 @@ nav.nav-menu {
   justify-content: end;
 }
 /* ====banner slider css======= */
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+section.main-banner {
+  margin: 0;
+}
+
+/* / ===welcome part css / */
+section.main-wlcm {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.highlight {
+  color: #9DB994;
+  font-family: "Kaushan Script", cursive;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.wlcm-heading {
+  padding: 0 6rem;
+}
+
+.mid-box {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wlcm-mid-part {
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.mid-box img {
+  width: 100px;
+  height: 100px;
+  /* background: #adb5bd; */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #D3BBA5;
+  padding: 10px;
+}
+
+.mid-box strong {
+  display: block;
+}
+
+.end-wlcm-pic {
+  width: 100%;
+  height: 200px;
+}
+
+.end-wlcm-pic img {
+  width: 100%;
+  height: 100%;
+  background: #adb5bd;
+}
+
+.end-wlcm-pic span {
+  color: #222;
+}
+
+/* ====images masnory css=== */
+.gallery-wrap-up img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.grid {
+  display: grid;
+  grid-template-rows: repeat(4, 180px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.item:nth-child(1) {
+  grid-row: 1 / 4;
+}
+
+.item:nth-child(2) {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+
+.item:nth-child(3) {
+  grid-column: 3 / 4;
+  grid-row: 3 / 5;
+}
+
+.item:nth-child(4) {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.item:nth-child(5) {
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+}
+
+/* styling code */
+.grid > .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item .gallery {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid.img-part {
+  padding: 1rem;
+}
+
+.web-btn {
+  width: 100%;
+  padding: 2rem;
+}
+/* ========testimonial css========= */
+section.testimonial-plan {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+section.testimonial-plan h4 {
+  width: 100%;
+}
+
+.testimonial-box-wrap {
+  margin: 2rem 0;
+}
+
+.testimonial-boxes {
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border: 1px solid #ffffff;
+  transition: 0.3s ease;
+  margin: 2rem 0;
+}
+.testimonial-boxes:hover {
+  border: 1px solid #91A691;
+  transform: translate(0, -2ex);
+  /* box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1); */
+}
+.testimonial-left {
+  text-align: left;
+}
+.user-id i {
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: #91A691;
+}
+.user-id {
+  margin: 4px 0;
+}
+.testimonial-boxes p::before {
+  color: rgb(180 203 129 / 35%);
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  font-size: 6rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1rem;
+  /* transform: translateX(-50%); */
+  /* background-attachment: fixed; */
+}
+.web-a-wrap {
+  margin-top: 1rem;
+  text-align: right !important;
+  display: flex;
+  justify-content: start;
+}
+.end-wlcm-wrap {
+  padding: 0.5rem 0;
+}
+
+/* ====banner background====== */
+section.banner-bg {
+  background-image: linear-gradient(rgb(16 104 20 / 27%), rgb(56 108 13 / 33%)), url(../img/bg-cvr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  padding: 2rem 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+section.banner-bg span {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* ============================= */
+ .tabs-left, .tabs-right {
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-right {
+  border-left: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+}
+.tabs-right>li {
+  margin-left: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+  border-bottom: 1px solid #ddd;
+  border-left-color: transparent;
+}
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+}
+.tabs-right>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+.sideways {
+  margin-top:50px;
+  border: none;
+  position: relative;
+}
+.sideways>li {
+  height: 20px;
+  width: 120px;
+  margin-bottom: 100px;
+}
+.sideways>li>a {
+  border-bottom: 1px solid #ddd;
+  border-right-color: transparent;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+.sideways>li.active>a,
+.sideways>li.active>a:hover,
+.sideways>li.active>a:focus {
+  border-bottom-color: transparent;
+  border-right-color: #ddd;
+  border-left-color: #ddd;
+}
+.sideways.tabs-left {
+  left: -50px;
+}
+.sideways.tabs-right {
+  right: -50px;
+}
+.sideways.tabs-right>li {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.sideways.tabs-left>li {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
