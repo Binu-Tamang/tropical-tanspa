@@ -95,7 +95,7 @@
                         <div class="col-lg-2 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-2.png" alt="spa-icon">
-                                <strong>Mind Refreshment</strong>
+                                <strong>Family Business</strong>
                             </div>
                         </div>
                         <div class="col-lg-2 col-6">
@@ -123,6 +123,7 @@
             </div>
 
             <div class="end-wlcm-wrap">
+                <h2 class=" mb-4 page-h">Tanning Packages And Hours</h2>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="end-wlcm-box">
@@ -155,7 +156,7 @@
                                 <span class="small-h">Tropical TanSpa Hours</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <ul class="time-ul">
-                                    <li><i class="fa-regular fa-clock"></i> MON - TUE : 09:00 AM - 19:00
+                                    <li><i class="fa-regular fa-clock"></i> MON - SUN : 09:00 AM - 07:00
                                         PM</li>
                                 </ul>
                             </div>
@@ -197,26 +198,25 @@
         <div class="container">
             <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s">
                 <p class=" mb-2 highlight">Our Services</p>
-                <h1 class=" mb-2 page-h">Services We Provides</h1>
+                <h2 class=" mb-2 page-h">Services We Provides</h2>
             </div>
             <div class="nav-serv">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">What We Do
-                                </button>
-                            <button class="tablinks" onclick="openCity(event, 'Paris')">Tropical Tanning</button>
-                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tanning Enhancements</button>
+                            <button class="tablinks" onclick="openSpa(event, 'Aqua')" id="defaultOpen">Aqua Massage
+                            </button>
+                            <button class="tablinks" onclick="openSpa(event, 'TTanning')">Tropical Tanning</button>
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div id="London" class="tabcontent">
+                        <div id="Aqua" class="tabcontent">
                             <div class="wrap-serv">
                                 <div class="tab-img">
-                                    <img src="assets/img/tropicaltanspa_06.jpg" alt="services img">
+                                    <img src="assets/img/tropicaltanspa_01.jpg" alt="services img">
                                 </div>
                                 <div class="tab-text">
-                                    <h3 class="small-h">What We Do </h3>
+                                    <h3 class="small-h">Aqua Massage </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore molestias
                                         fugiat sit veritatis nostrum modi aliquid repudiandae harum incidunt doloremque
                                         ut soluta vel iste, temporibus odio voluptatum ratione nam earum.</p>
@@ -228,7 +228,7 @@
                             </div>
                         </div>
 
-                        <div id="Paris" class="tabcontent">
+                        <div id="TTanning" class="tabcontent">
                             <div class="wrap-serv">
                                 <div class="tab-img">
                                     <img src="assets/img/tropicaltanspa_10.jpg" alt="services img">
@@ -238,20 +238,6 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium, odio
                                         ut quia corrupti delectus cupiditate molestiae laboriosam facere eveniet cumque
                                         nihil modi. Fugiat quidem mollitia dolorum cum omnis nobis!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="Tokyo" class="tabcontent">
-                            <div class="wrap-serv">
-                                <div class="tab-img">
-                                    <img src="assets/img/tropicaltanspa_01.jpg" alt="services img">
-                                </div>
-                                <div class="tab-text">
-                                    <h3 class="small-h">Tanning Enhancements</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus quidem non,
-                                        dolores aperiam voluptate similique at earum voluptatum quod id impedit harum,
-                                        sit alias a deleniti eum molestiae nam aliquam.</p>
                                 </div>
                             </div>
                         </div>
@@ -268,8 +254,8 @@
     <!-- isotope project -->
     <section class="isotope-project container-md-xxl">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <p class=" text-uppercase mb-2 .highlight">Our Gallery</p>
-            <h1 class="display-5 text-black mb-2 page-h">Photo Of The Day</h1>
+            <p class=" mb-2 highlight">Our Gallery</p>
+            <h3 class="display-5 mb-2 page-h">Photo Of The Day</h3>
         </div>
         <div class="portfolio-menu">
             <ul class="isotope-ul">
@@ -364,7 +350,7 @@
     <!-- =====section banner html -->
     <section class="banner-bg">
         <div class="container">
-            <span>Get 50% Off For Your First Visit</span>
+            <span>Get Up To 50% Off On Our Tanning Packages </span>
         </div>
     </section>
 
@@ -381,10 +367,14 @@
                             labore et
                             dolore magna</p>
                         <div class="web-a-wrap">
-                            <a class="web-a" href="#">View All Review</a>
+                            <a class="web-a"
+                                href="https://www.google.com/search?q=tropical+tanspa&oq=tropical+tanspa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMgYIAhBFGEAyBggDEEUYPDIGCAQQRRg80gEINTkwM2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x87f009b683dac989:0x624e97c093048507,1,,,,">View
+                                All Review</a>
                         </div>
                         <div class="web-a-wrap">
-                            <a class="web-a" href="#">Write A Review</a>
+                            <a class="web-a"
+                                href="https://www.google.com/search?q=tropical+tanspa&oq=tropical+tanspa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMgYIAhBFGEAyBggDEEUYPDIGCAQQRRg80gEINTkwM2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x87f009b683dac989:0x624e97c093048507,3,,,,">Write
+                                A Review</a>
                         </div>
                     </div>
                 </div>
@@ -395,59 +385,73 @@
                                 <div class="testimonial-boxes">
                                     <div class="user-id">
                                         <i class="fa-solid fa-user"></i>
-                                        <strong>Person Name</strong>
+                                        <strong>Megan Baldwin</strong>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                                        nec
-                                        ullamcorper mattis.</p>
+                                    <p>I've always loved going here. Support small/local businesses! It's always clean,
+                                        and I've never had any issues! Mike and his mom have kept up with this amazing
+                                        tanning destination ❤️</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimonial-boxes">
                                     <div class="user-id">
                                         <i class="fa-solid fa-user"></i>
-                                        <strong>Person Name</strong>
+                                        <strong>Music guy</strong>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                                        nec
-                                        ullamcorper mattis.</p>
+                                    <p>Nice local tanning spot. Small family owned establishment with great customer
+                                        service. Lots of options from old school laydown beds to nice stand ups. Not
+                                        usually too busy, easy getting in and out.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimonial-boxes">
                                     <div class="user-id">
                                         <i class="fa-solid fa-user"></i>
-                                        <strong>Person Name</strong>
+                                        <strong>Chris Borglum</strong>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                                        nec
-                                        ullamcorper mattis.</p>
+                                    <p>Appointments are necessary with Covid restrictions. Masks are not required any
+                                        more. Same great tanning options and friendly service.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimonial-boxes">
                                     <div class="user-id">
                                         <i class="fa-solid fa-user"></i>
-                                        <strong>Person Name</strong>
+                                        <strong>Valerie Ritter</strong>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                                        nec
-                                        ullamcorper mattis.</p>
+                                    <p>Nice guy running the show..very clean! Always smells nice when you walk in the
+                                        front door. Beds are always clean.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimonial-boxes">
                                     <div class="user-id">
                                         <i class="fa-solid fa-user"></i>
-                                        <strong>Person Name</strong>
+                                        <strong>pattie wymore</strong>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                                        nec
-                                        ullamcorper mattis.</p>
+                                    <p>Really clean, good atmosphere and friendly. Really like the discount Tuesdays.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- live map location -->
+    <section class="contact-liveview">
+        <div class="head-box">
+            <span class=" mb-2 highlight"> Location</span>
+            <h5 class="display-5 mb-4 page-h">Our Location</h5>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m0!4v1502996662336!6m8!1m7!1sCAoSLEFGMVFpcE5WOE5QZjJFQnBSemh3a0UxcE9RZjBpVW51U2dHWkJQRmhCaThF!2m2!1d42.72479882657546!2d-92.48337417840958!3f271.68576733952756!4f-4.0819632986794545!5f1.9475567856862317"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

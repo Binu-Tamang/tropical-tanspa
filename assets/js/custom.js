@@ -27,7 +27,7 @@ $('.owl-carousel.testimonial-owl').owlCarousel({
   })
   
   // nav and tab vertical
-  function openCity(evt, cityName) {
+  function openSpa(evt, tanspaName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -37,7 +37,7 @@ $('.owl-carousel.testimonial-owl').owlCarousel({
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tanspaName).style.display = "block";
     evt.currentTarget.className += " active";
   }
   

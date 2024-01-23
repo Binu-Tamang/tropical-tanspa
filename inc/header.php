@@ -4,17 +4,16 @@
       <div class="row">
         <div class="col-md-6">
           <div class="navbar-up-left">
-            <ul class="navbar-contact">
-              <li><a href="tel:319-352-2439"><i class="fa-solid fa-phone"></i> 319-352-2439</a></li>
-              <li><a href="#"><i class="fa-regular fa-clock"></i> MON - TUE : 09:00 AM - 19:00 PM</a></li>
+            <ul class="nb-social-link">
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-6">
           <div class="navbar-up-right">
-            <ul class="nb-social-link">
-              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <ul class="navbar-contact">
+              <li><a href="tel:319-352-2439"><i class="fa-solid fa-phone"></i> 319-352-2439</a></li>
             </ul>
           </div>
         </div>
@@ -30,7 +29,8 @@
           <img src="assets/img/tt-logo.png" alt="logo">
         </div>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse content-item" id="navbarNav">
