@@ -87,7 +87,7 @@
       </div>
 
       <div class="footer-end text-md-center">
-        <p>All Rights Reserved 2024 Back Country Riders</p>
+        <p>All Rights Reserved 2024 Tropical TanSpa</p>
         <div class=" my-sm-0 my-2 footer-host-img">
           <p>
             Designed BY :

@@ -43,3 +43,20 @@ $('.owl-carousel.testimonial-owl').owlCarousel({
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+  
+  // isotope js
+var grid = $(".portfolio-item").isotope({
+  // options
+  itemSelector: ".item",
+  layoutMode: "fitRows",
+});
+
+$(".portfolio-menu ul li").click(function () {
+  $(".portfolio-menu ul li").removeClass("active");
+  $(this).addClass("active");
+  var category = $(this).data("filter");
+  grid.isotope({
+    filter: category,
+  });
+});

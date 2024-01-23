@@ -43,6 +43,9 @@ ul.menu-ul li a:hover {
   border-radius: 15px 0 15px 0;
   color: #572c02;
 }
+ul.nb-social-link li i {
+  font-size: 20px !important;
+}
 .web-a:hover {
   background: transparent;
   border: 1px solid #9DB994;
@@ -66,6 +69,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: end;
+}
+.w-content{
+  width: 300px;
 }
 .over-lay {
   position: absolute;
@@ -249,6 +255,7 @@ section.main-wlcm {
 .end-wlcm-pic {
   width: 100%;
   height: 200px;
+  overflow: hidden;
 }
 
 .end-wlcm-pic img {
@@ -256,14 +263,46 @@ section.main-wlcm {
   height: 100%;
   background: #adb5bd;
   border-radius: 10px;
+  transition: 0.3s all ease;
 }
 
 .end-wlcm-pic span {
   color: #222;
 }
+ul.time-ul {
+  margin: 0;
+  padding: 0 1rem;
+}
 
+ul.time-ul li {
+  list-style: none;
+  margin: 10px 0;
+  text-align: start;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Heebo', sans-serif;
+  color: #606060;
+}
+
+ul.time-ul li i {
+  margin-right: 10px;
+  color: #e2ae65;
+}
+.tanspa-pg {
+  display: flex;
+}
+.end-wlcm-pic:hover img {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+.end-wlcm-text span {
+  color: #222 !important;
+  padding: 10px 0;
+  font-size: 20px;
+}
 /* ============services css starts================= */
 .tab button {
+  font-family: 'Heebo', sans-serif;
   display: block;
   background-color: inherit;
   color: #222;
@@ -449,7 +488,7 @@ section.testimonial-plan h4 {
 
 /* ====banner background====== */
 section.banner-bg {
-  background-image: linear-gradient(rgb(16 104 20 / 27%), rgb(56 108 13 / 33%)), url(../img/bg-cvr.jpg);
+  background-image:linear-gradient(#22222257, #22222221), url(../img/tropicaltanspa_07.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -547,6 +586,7 @@ footer {
 .footer-social-media li i {
   font-size: 25px;
   color: #f8f9fa;
+  transition: 0.3s all ease;
 }
 .footer-conact-dt span {
   font-weight: 700;
@@ -569,4 +609,12 @@ footer {
 }
 .footer-end p, .footer-end a, .footer-up p {
   color: #f8f9fa;
+}
+.footer-social-media li i:hover {
+  color: #e2ae65;
+}
+
+ul.web-links li a:hover {
+  color: #e2ae65;
+  border-bottom: 1px solid #e2ae65;
 }

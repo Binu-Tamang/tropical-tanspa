@@ -26,5 +26,6 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!-- custom css -->
+<link media="all" rel="stylesheet" type="text/css" href="assets/css/isotope.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/respo.css">

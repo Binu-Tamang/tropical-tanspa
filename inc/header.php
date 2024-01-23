@@ -13,8 +13,8 @@
         <div class="col-md-6">
           <div class="navbar-up-right">
             <ul class="nb-social-link">
-              <li><a href="#">FACEBOOK</a></li>
-              <li><a href="#">INSTAGRAM</a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
