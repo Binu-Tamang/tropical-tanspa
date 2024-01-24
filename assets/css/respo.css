@@ -152,6 +152,18 @@ section {
   .main-footer {
     padding: 0 1rem;
   }
+  .web-banner-wrapper {
+    padding: 10px;
+    margin: 0 1rem;
+}
+
+.page-header {
+    font-size: 18px;
+}
+
+ol.breadcrumb.justify-content-center.text-uppercase a {
+    font-size: 20px;
+}
 }
 @media (min-width: 575px) and (max-width: 767px) {
   .content-item {
@@ -389,4 +401,17 @@ section {
   .main-footer {
     padding: 0 1rem;
   }
+  /* ============================= */
+  .web-banner-wrapper {
+    padding: 10px;
+    margin: 0 1rem;
+}
+
+.page-header {
+    font-size: 18px;
+}
+
+ol.breadcrumb.justify-content-center.text-uppercase a {
+    font-size: 20px;
+}
 }

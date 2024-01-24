@@ -9,7 +9,7 @@
 
 
     <!-- favicon link -->
-    <link rel="icon" type="images/png" href="">
+    <link rel="icon" type="images/png" href="assets/img/tt-logo.png">
     <title>Tropical Tanspa </title>
 </head>
 
@@ -462,8 +462,12 @@
 
     include('inc/footer.php');
     include('inc/js.php')
-
         ?>
+
+<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }</script>
 </body>
 
 </html>

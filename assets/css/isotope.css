@@ -7,18 +7,18 @@
     list-style: none;
     display: inline-block;
     margin: 20px 6px;
-    border: 1px solid #9db994;
+    border: 1px solid #6e8264;
     padding: 10px 20px;
     cursor: pointer;
     transition: 0.3s ease;
     border-radius: 15px 0 15px 0;
 }
 .portfolio-menu ul li:hover{
-    background: #9db994;
+    background: #6e8264;
     color: #fff;
 }
 .portfolio-menu li.active{
-    background: #9db994;
+    background: #6e8264;
     color: #fff;
     border-radius: 15px 0 15px 0;
 }

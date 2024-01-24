@@ -33,10 +33,10 @@
               <div class="footer-box-wrap footer-wrap-2">
                 <h5 class="small-h">Important Links</h5>
                 <ul class="web-links">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Conatact Us</a></li>
+                  <li><a href="about-us.php">About Us</a></li>
+                  <li><a href="service.php">Services</a></li>
+                  <li><a href="gallery.php">Gallery</a></li>
+                  <li><a href="contact-us.php">Conatact Us</a></li>
                 </ul>
               </div>
             </div>

@@ -27,13 +27,13 @@ p{
   letter-spacing: 1px;
 }
 .web-a {
-  background: #9DB994;
+  background: #6e8264;
   text-decoration: none;
   color: #fff;
   padding: 12px 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 1px solid #9DB994;
+  border: 1px solid #6e8264;
   transition: 0.3s ease;
   text-align: center;
   border-radius: 30px;
@@ -49,8 +49,8 @@ ul.nb-social-link li i {
 }
 .web-a:hover {
   background: transparent;
-  border: 1px solid #9DB994;
-  color: #9DB994;
+  border: 1px solid #6e8264;
+  color: #6e8264;
 }
 section {
   margin-top: 5rem;
@@ -62,7 +62,7 @@ section {
 }
 :root{
  --main_color:#385115;
- --n-main_color:#9DB994;
+ --n-main_color:#6e8264;
  --e--main_color:#91A691;
  --v_main-color:#D3BBA5;
 }
@@ -338,13 +338,13 @@ ul.time-ul li i {
   position: relative;
 }
 .tab button:hover {
-  background-color: #91A691;
-  border: 1px solid #91A691;
+  background-color: #6e8264;
+  border: 1px solid #6e8264;
   color: #fff;
 }
 .tab button.active {
-  border: 1px solid #91A691;
-  background: #91a691;
+  border: 1px solid #6e8264;
+  background: #6e8264;
   color: #fff;
 }
 .tabcontent {
@@ -642,4 +642,243 @@ section.contact-liveview iframe {
 .head-box {
   width: 100%;
   text-align: center;
+}
+/* ===web banner css===== */
+.page-header {
+  background: url(../img/tropicaltanspa_02.jpg);
+  height: 350px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 4rem;
+}
+ol.breadcrumb.justify-content-center.text-uppercase a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  font-family: "Quicksand", sans-serif;
+}
+.web-banner-wrapper {
+  padding: 2rem 0;
+  background: #22222252;
+  /* border-radius: 15px; */
+  margin: 0 5rem;
+  /* backdrop-filter: blur(5px); */
+}
+strong.typing-text.headlight-h {
+  font-family: 'Alex Brush', cursive;
+  color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
+/* ============ */
+
+/* ======about us page css starts ========= */
+section.main-abt-us, section.abt-us-rules, section.tanning-pck {
+  text-align: center;
+}
+
+ul.abt-tan-rules {
+  padding: 0;
+  text-align: left;
+  margin: 0;
+}
+
+ul.abt-tan-rules li {
+  list-style: none;
+  color: #606060;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  display: flex;
+}
+
+section.abt-pg-circle {
+  padding: 2rem 0;
+  border: 1px solid #9e9e9e80;
+  border-right: 0;
+  border-left: 0;
+}
+ul.abt-tan-rules li i {
+  color: #e2ae65;
+  font-size: 22px;
+  padding-right: 10px;
+}
+section.abt-us-rules strong {
+  color: #222;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+
+/* ====contact form========== */
+/* =====contact us ======= */
+.form-wrap {
+  display: flex;
+}
+input[type="text"] {
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+input[type="tel"] {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.contact-us input#name {
+  padding: 10px;
+  margin: 0px 0;
+}
+.contact-us input#phone {
+  padding: 10px;
+  margin: 10px 0;
+}
+.contact-us input#email {
+  margin: 10px 0;
+  font-size: 16px;
+}
+select.outtaHere {
+  padding: 8px;
+}
+.formfield.col-md-12.col-sm-12.col-xs-12 {
+  margin: 0;
+  padding: 0;
+}
+.footer-logo img {
+  width: 200px;
+}
+@media (max-width: 62em) {
+  nav#ftco-navbar {
+    background-color: #fff;
+    /* padding: 25px 0; */
+  }
+  .gx-0.col-lg-12.header-top-up {
+    display: none;
+  }
+  div#second_header {
+    background-color: #fff;
+    height: auto;
+  }
+  .hero-wrap .overlay {
+    /* height: 765px; */
+  }
+}
+.img.rounded img {
+  width: 100%;
+  height: 220px;
+}
+section.reservation-main {
+  margin: 4rem 0;
+  text-align: center;
+}
+/* .nav-pills .reserv-li a.active {
+  border-radius: 0;
+  border: 1px solid #5510f5;
+} */
+.reserv-li {
+  margin-right: 12px;
+}
+textarea#message {
+  height: 100% !important;
+}
+.welcome-part-button.enquire-btn {
+  margin-top: 2.5rem;
+  display: flex;
+}
+.contact-details-box p {
+  color: #fff;
+}
+.form-location {
+  padding: 2rem;
+  /* display: flex; */
+  margin: 1rem;
+  border: 1px solid #dee2e6;
+  background: #eeeeee87;
+  border-radius: 30px 0 30px 0;
+}
+.location-icon i {
+  padding: 1rem;
+  font-size: 22px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: #e2ae65;
+  background: #e2ae6530;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+.location-icon i:hover {
+  background: transparent;
+}
+.location-details {
+  display: grid;
+  padding-left: 1.5rem;
+}
+.location-details span {
+  color: #222;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.location-box {
+  display: flex;
+}
+.location-details a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+.contact-box-wrap {
+  padding: 0 3rem;
+}
+section.location-map.contact-map img {
+  padding: 0 5rem;
+}
+.web-btn.enquire-btn {
+  padding: 2rem 1rem;
+}
+/* =============================== */
+
+/* =====services page css============ */
+.serv-pg-context .small-h {
+  color: #222;
+  letter-spacing: 1px;
+  font-family: 'Heebo', sans-serif;
+  padding-bottom: 10px;
+}
+.serv-pg-box {
+  display: flex;
+}
+
+.serv-pg-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.serv-pg-context {
+  padding: 2rem;
+}
+section.serv-pg {
+  padding-bottom: 2.5rem;
+}
+section.serv-pg .page-h {
+  text-align: center;
+}
+.serv-pg-box.serv-b-one .serv-pg-context {
+  padding-left: 0;
 }
