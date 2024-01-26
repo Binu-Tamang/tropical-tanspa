@@ -36,19 +36,19 @@
       <div class="collapse navbar-collapse content-item" id="navbarNav">
         <ul class="navbar-nav menu-ul">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about-us.php">About Us</a>
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.php">Our Services</a>
+            <a class="nav-link" href="#">Our Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.php">Our Gallery</a>
+            <a class="nav-link" href="#">Our Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact-us.php">Contact Us</a>
+            <a class="nav-link" href="#">Contact Us</a>
           </li>
         </ul>
       </div>
