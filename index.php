@@ -85,38 +85,36 @@
             <div class="wlcm-mid-part">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-2 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-1.png" alt="spa-icon">
                                 <strong>Body Relief</strong>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-2.png" alt="spa-icon">
                                 <strong>Family Business</strong>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-6">
+                        <!-- <div class="col-lg-3 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-3.png" alt="spa-icon">
                                 <strong>Free Towel</strong>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-6">
+                        </div> -->
+                        <div class="col-lg-3 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-4.png" alt="spa-icon">
                                 <strong>Friendly Staff</strong>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="mid-box">
                                 <img src="assets/img/spa-5.png" alt="spa-icon">
                                 <strong>Tanning Accessories</strong>
                             </div>
                         </div>
-                        <div class="col-lg-1"></div>
                     </div>
                 </div>
             </div>
@@ -128,7 +126,7 @@
             <div class="container">
                 <div class="abt-pck-up-content">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 order-2 order-md-1">
                             <div class="abt-why-us">
                                 <span class="highlight">Tropical TanSpa</span>
                                 <h2 class="page-h">Why Choose Us</h2>
@@ -140,11 +138,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 order-1 order-md-2">
                             <div class="abt-detail-img">
                                 <div class="abt-package abt-img data-container">
                                     <div class="btn-img">
-                                        <img src="assets/img/happy-c.png" alt="happy client">
+                                        <img src="assets/img/tropicaltanspa_11.jpg" alt="happy client">
                                     </div>
                                 </div>
                                 <div class="abt-blnk-box"></div>
@@ -166,10 +164,19 @@
                             <div class="abt-web-details">
                                 <span class="highlight">Packages</span>
                                 <h2 class="page-h">Our Tanning Packages</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam eos
-                                    dolorem dolore delectus tempore quia ullam culpa. Mollitia excepturi ipsum
-                                    adipisci natus reiciendis omnis voluptatem ipsam labore tenetur maiores.
-                                </p>
+                                
+                                <div class="tanspa-pg">
+                                    <ul class="time-ul">
+                                        <li><i class="fa-regular fa-clock"></i> 75 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i> 100 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i> 200 Minutes</li>
+                                    </ul>
+                                    <ul class="time-ul">
+                                        <li><i class="fa-regular fa-clock"></i> 300 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i> 400 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i> 500 Minutes</li>
+                                    </ul>
+                                </div>
                                 <div class="web-btn text-left">
                                     <a class="web-a" href="gallery.php">View More +</a>
                                 </div>
@@ -371,20 +378,21 @@
         </div>
     </section>
 
-    <!-- live map location -->
-    <section class="contact-liveview">
+
+
+    <!-- companylocation -->
+    <section class="main-map contact-liveview">
         <div class="head-box">
             <span class=" mb-2 highlight"> Location</span>
             <h5 class="display-5 mb-4 page-h">Our Location</h5>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m0!4v1502996662336!6m8!1m7!1sCAoSLEFGMVFpcE5WOE5QZjJFQnBSemh3a0UxcE9RZjBpVW51U2dHWkJQRmhCaThF!2m2!1d42.72479882657546!2d-92.48337417840958!3f271.68576733952756!4f-4.0819632986794545!5f1.9475567856862317"
-                        frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m0!4v1502996662336!6m8!1m7!1sCAoSLEFGMVFpcE5WOE5QZjJFQnBSemh3a0UxcE9RZjBpVW51U2dHWkJQRmhCaThF!2m2!1d42.72479882657546!2d-92.48337417840958!3f271.68576733952756!4f-4.0819632986794545!5f1.9475567856862317"
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+        </div>
         </div>
     </section>
 

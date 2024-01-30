@@ -1,82 +1,5 @@
 @media (min-width: 226px) and (max-width: 560px) {
-/* ==navbar css starts==== */
-.content-item {
-  justify-content: start;
-  padding-left: 1rem;
-}
-
-ul.menu-ul li a {
-  padding: 0.5rem 1rem;
-}
-
-ul.menu-ul li {
-  margin: 6px;
-}
-.banner-context span {
-  font-size: 25px;
-  padding: 0.5rem;
-}
-
-p {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.banner-context {
-  width: 100%;
-  padding: 4rem 6rem;
-}
-
-.over-lay {
-  height: 400px;
-}
-
-.carousel-item img {
-  height: 400px;
-}
-
-section {
-  margin-top: 2.5rem;
-}
-
-.wlcm-heading {
-  padding: 0 2rem;
-}
-
-.page-h {
-  font-size: 28px;
-}
-
-.mid-box {
-  margin: 10px 0;
-}
-
-.end-wlcm-box {
-  margin: 12px;
-}
-
-.wrap-serv {
-  display: block;
-}
-
-.tab-img img {
-  width: 100%;
-}
-
-.tab-text {
-  margin-top: 12px;
-  padding: 0;
-}
-
-.footer-box-wrap.footer-wrap-2 {
-  padding: 2rem 0;
-}
-
-.main-footer {
-  padding: 0 1rem;
-}
-}
-@media (min-width: 560px) and (max-width: 575px) {
+  /* ==navbar css starts==== */
   .content-item {
     justify-content: start;
     padding-left: 1rem;
@@ -152,266 +75,410 @@ section {
   .main-footer {
     padding: 0 1rem;
   }
-  .web-banner-wrapper {
-    padding: 10px;
-    margin: 0 1rem;
+  .abt-detail-img {
+    padding: 1.5rem 0;
+  }
+  .abt-why-us, .abt-web-details {
+    text-align: center;
+    padding: 0 10px;
 }
-
-.page-header {
-    font-size: 18px;
+  .abt-why-us, .abt-web-details {
+    text-align: center;
+    padding: 0 10px;
 }
-
-ol.breadcrumb.justify-content-center.text-uppercase a {
-    font-size: 20px;
+.portfolio-item .item {
+  width: 100%;
 }
-}
-@media (min-width: 575px) and (max-width: 767px) {
-  .content-item {
-    justify-content: start;
-    padding-left: 1rem;
+  }
+  @media (min-width: 560px) and (max-width: 575px) {
+    .content-item {
+      justify-content: start;
+      padding-left: 1rem;
+    }
+    
+    ul.menu-ul li a {
+      padding: 0.5rem 1rem;
+    }
+    
+    ul.menu-ul li {
+      margin: 6px;
+    }
+    .banner-context span {
+      font-size: 25px;
+      padding: 0.5rem;
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .banner-context {
+      width: 100%;
+      padding: 4rem 6rem;
+    }
+    
+    .over-lay {
+      height: 400px;
+    }
+    
+    .carousel-item img {
+      height: 400px;
+    }
+    
+    section {
+      margin-top: 2.5rem;
+    }
+    
+    .wlcm-heading {
+      padding: 0 2rem;
+    }
+    
+    .page-h {
+      font-size: 28px;
+    }
+    
+    .mid-box {
+      margin: 10px 0;
+    }
+    
+    .end-wlcm-box {
+      margin: 12px;
+    }
+    
+    .wrap-serv {
+      display: block;
+    }
+    
+    .tab-img img {
+      width: 100%;
+    }
+    
+    .tab-text {
+      margin-top: 12px;
+      padding: 0;
+    }
+    
+    .footer-box-wrap.footer-wrap-2 {
+      padding: 2rem 0;
+    }
+    
+    .main-footer {
+      padding: 0 1rem;
+    }
+    .web-banner-wrapper {
+      padding: 10px;
+      margin: 0 1rem;
   }
   
-  ul.menu-ul li a {
-    padding: 0.5rem 1rem;
+  .page-header {
+      font-size: 18px;
   }
   
-  ul.menu-ul li {
-    margin: 6px;
+  ol.breadcrumb.justify-content-center.text-uppercase a {
+      font-size: 20px;
   }
-  .banner-context span {
-    font-size: 25px;
-    padding: 0.5rem;
+  .abt-detail-img {
+    padding: 1.5rem 0;
   }
-  
-  p {
-    font-size: 14px;
-    line-height: 20px;
+  .abt-why-us, .abt-web-details {
+    text-align: center;
+    padding: 0 10px;
+}
+  .abt-why-us, .abt-web-details {
+    text-align: center;
+    padding: 0 10px;
+}
+.portfolio-item .item {
+  width: 100%;
+}
   }
-  
-  .banner-context {
+  @media (min-width: 575px) and (max-width: 767px) {
+    .content-item {
+      justify-content: start;
+      padding-left: 1rem;
+    }
+    
+    ul.menu-ul li a {
+      padding: 0.5rem 1rem;
+    }
+    
+    ul.menu-ul li {
+      margin: 6px;
+    }
+    .banner-context span {
+      font-size: 25px;
+      padding: 0.5rem;
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .banner-context {
+      width: 100%;
+      padding: 4rem 6rem;
+    }
+    
+    .over-lay {
+      height: 400px;
+    }
+    
+    .carousel-item img {
+      height: 400px;
+    }
+    
+    section {
+      margin-top: 2.5rem;
+    }
+    
+    .wlcm-heading {
+      padding: 0 2rem;
+    }
+    
+    .page-h {
+      font-size: 28px;
+    }
+    
+    .mid-box {
+      margin: 10px 0;
+    }
+    
+    .end-wlcm-box {
+      margin: 12px;
+    }
+    
+    .wrap-serv {
+      display: block;
+    }
+    
+    .tab-img img {
+      width: 100%;
+    }
+    
+    .tab-text {
+      margin-top: 12px;
+      padding: 0;
+    }
+    
+    .footer-box-wrap.footer-wrap-2 {
+      padding: 2rem 0;
+    }
+    
+    .main-footer {
+      padding: 0 1rem;
+    }
+    .abt-detail-img {
+      padding: 1.5rem 0;
+    }
+    .abt-why-us, .abt-web-details {
+      text-align: center;
+      padding: 0 10px;
+  }
+    .abt-why-us, .abt-web-details {
+      text-align: center;
+      padding: 0 10px;
+  }
+  .portfolio-item .item {
     width: 100%;
+}
+  }
+  @media (min-width: 767px) and (max-width: 991px) {
+    .content-item {
+      justify-content: start;
+      padding-left: 1rem;
+    }
+    
+    ul.menu-ul li a {
+      padding: 0.5rem 1rem;
+    }
+    
+    ul.menu-ul li {
+      margin: 6px;
+    }
+    .banner-context span {
+      font-size: 25px;
+      padding: 0.5rem;
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .banner-context {
+      width: 100%;
     padding: 4rem 6rem;
+    }
+    
+    .over-lay {
+      height: 400px;
+    }
+    
+    .carousel-item img {
+      height: 400px;
+    }
+    
+    section {
+      margin-top: 2.5rem;
+    }
+    
+    .wlcm-heading {
+      padding: 0 2rem;
+    }
+    
+    .page-h {
+      font-size: 28px;
+    }
+    
+    .mid-box {
+      margin: 10px 0;
+    }
+    
+    .end-wlcm-box {
+      margin: 12px;
+    }
+    
+    .wrap-serv {
+      display: block;
+    }
+    
+    .tab-img img {
+      width: 100%;
+    }
+    
+    .tab-text {
+      margin-top: 12px;
+      padding: 0;
+    }
+    
+    .footer-box-wrap.footer-wrap-2 {
+      padding: 2rem 0;
+    }
+    
+    .main-footer {
+      padding: 0 1rem;
+    }
+    .abt-detail-img {
+      padding: 1.5rem 0;
+    }
+    .abt-why-us, .abt-web-details {
+      text-align: center;
+      padding: 0 10px;
   }
-  
-  .over-lay {
-    height: 400px;
+    .abt-why-us, .abt-web-details {
+      text-align: center;
+      padding: 0 10px;
   }
-  
-  .carousel-item img {
-    height: 400px;
-  }
-  
-  section {
-    margin-top: 2.5rem;
-  }
-  
-  .wlcm-heading {
-    padding: 0 2rem;
-  }
-  
-  .page-h {
-    font-size: 28px;
-  }
-  
-  .mid-box {
-    margin: 10px 0;
-  }
-  
-  .end-wlcm-box {
-    margin: 12px;
-  }
-  
-  .wrap-serv {
-    display: block;
-  }
-  
-  .tab-img img {
+  .portfolio-item .item {
     width: 100%;
-  }
-  
-  .tab-text {
-    margin-top: 12px;
-    padding: 0;
-  }
-  
-  .footer-box-wrap.footer-wrap-2 {
-    padding: 2rem 0;
-  }
-  
-  .main-footer {
-    padding: 0 1rem;
-  }
 }
-@media (min-width: 767px) and (max-width: 991px) {
-  .content-item {
-    justify-content: start;
-    padding-left: 1rem;
+  }
+  @media (min-width: 992px) {
   }
   
-  ul.menu-ul li a {
-    padding: 0.5rem 1rem;
+  @media (max-width: 600px) {
+   
+  }
+  @media (max-width: 35em) {
+    .content-item {
+      justify-content: start;
+      padding-left: 1rem;
+    }
+    
+    ul.menu-ul li a {
+      padding: 0.5rem 1rem;
+    }
+    
+    ul.menu-ul li {
+      margin: 6px;
+    }
+    .banner-context span {
+      font-size: 25px;
+      padding: 0.5rem;
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .banner-context {
+      width: 100%;
+    padding: 4rem 6rem;
+    }
+    
+    .over-lay {
+      height: 400px;
+    }
+    
+    .carousel-item img {
+      height: 400px;
+    }
+    
+    section {
+      margin-top: 0rem;
+      padding-bottom: 0 !important;
+    }
+    
+    .wlcm-heading {
+      padding: 0 2rem;
+    }
+    
+    .page-h {
+      font-size: 28px;
+    }
+    
+    .mid-box {
+      margin: 10px 0;
+    }
+    
+    .end-wlcm-box {
+      margin: 12px;
+    }
+    
+    .wrap-serv {
+      display: block;
+    }
+    
+    .tab-img img {
+      width: 100%;
+    }
+    
+    .tab-text {
+      margin-top: 12px;
+      padding: 0;
+    }
+    
+    .footer-box-wrap.footer-wrap-2 {
+      padding: 2rem 0;
+    }
+    
+    .main-footer {
+      padding: 0 1rem;
+    }
+    /* ============================= */
+    .web-banner-wrapper {
+      padding: 10px;
+      margin: 0 1rem;
   }
   
-  ul.menu-ul li {
-    margin: 6px;
-  }
-  .banner-context span {
-    font-size: 25px;
-    padding: 0.5rem;
+  .page-header {
+      font-size: 18px;
   }
   
-  p {
-    font-size: 14px;
-    line-height: 20px;
+  ol.breadcrumb.justify-content-center.text-uppercase a {
+      font-size: 20px;
   }
-  
-  .banner-context {
-    width: 100%;
-  padding: 4rem 6rem;
+  .abt-detail-img {
+    padding: 1.5rem 0;
   }
-  
-  .over-lay {
-    height: 400px;
-  }
-  
-  .carousel-item img {
-    height: 400px;
-  }
-  
-  section {
-    margin-top: 2.5rem;
-  }
-  
-  .wlcm-heading {
-    padding: 0 2rem;
-  }
-  
-  .page-h {
-    font-size: 28px;
-  }
-  
-  .mid-box {
-    margin: 10px 0;
-  }
-  
-  .end-wlcm-box {
-    margin: 12px;
-  }
-  
-  .wrap-serv {
-    display: block;
-  }
-  
-  .tab-img img {
-    width: 100%;
-  }
-  
-  .tab-text {
-    margin-top: 12px;
-    padding: 0;
-  }
-  
-  .footer-box-wrap.footer-wrap-2 {
-    padding: 2rem 0;
-  }
-  
-  .main-footer {
-    padding: 0 1rem;
-  }
+  .abt-why-us, .abt-web-details {
+    text-align: center;
+    padding: 0 10px;
 }
-@media (min-width: 992px) {
+.portfolio-item .item {
+  width: 100%;
 }
-
-@media (max-width: 600px) {
- 
-}
-@media (max-width: 35em) {
-  .content-item {
-    justify-content: start;
-    padding-left: 1rem;
   }
-  
-  ul.menu-ul li a {
-    padding: 0.5rem 1rem;
-  }
-  
-  ul.menu-ul li {
-    margin: 6px;
-  }
-  .banner-context span {
-    font-size: 25px;
-    padding: 0.5rem;
-  }
-  
-  p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-  .banner-context {
-    width: 100%;
-  padding: 4rem 6rem;
-  }
-  
-  .over-lay {
-    height: 400px;
-  }
-  
-  .carousel-item img {
-    height: 400px;
-  }
-  
-  section {
-    margin-top: 2.5rem;
-  }
-  
-  .wlcm-heading {
-    padding: 0 2rem;
-  }
-  
-  .page-h {
-    font-size: 28px;
-  }
-  
-  .mid-box {
-    margin: 10px 0;
-  }
-  
-  .end-wlcm-box {
-    margin: 12px;
-  }
-  
-  .wrap-serv {
-    display: block;
-  }
-  
-  .tab-img img {
-    width: 100%;
-  }
-  
-  .tab-text {
-    margin-top: 12px;
-    padding: 0;
-  }
-  
-  .footer-box-wrap.footer-wrap-2 {
-    padding: 2rem 0;
-  }
-  
-  .main-footer {
-    padding: 0 1rem;
-  }
-  /* ============================= */
-  .web-banner-wrapper {
-    padding: 10px;
-    margin: 0 1rem;
-}
-
-.page-header {
-    font-size: 18px;
-}
-
-ol.breadcrumb.justify-content-center.text-uppercase a {
-    font-size: 20px;
-}
-}

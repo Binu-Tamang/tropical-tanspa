@@ -37,6 +37,64 @@
         </div>
     </section>
 
+    <section class="main-package">
+        <div class="about-web">
+            <div class="container">
+                <div class="abt-pck-up-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="abt-why-us">
+                                <span class="highlight">Tropical TanSpa</span>
+                                <h2 class="page-h">Why Choose Us</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa at ex
+                                    explicabo, quam rem necessitatibus sint laudantium cum a voluptates, expedita,
+                                    placeat repudiandae quo provident quod odio sunt voluptatibus?</p>
+                                <div class="web-btn text-left">
+                                    <a class="web-a" href="gallery.php">View More +</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abt-detail-img">
+                                <div class="abt-package abt-img data-container">
+                                    <div class="btn-img">
+                                        <img src="assets/img/happy-c.png" alt="happy client">
+                                    </div>
+                                </div>
+                                <div class="abt-blnk-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abt-pck-dwn-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="abt-dwm-img abt-img data-container">
+                                <div class="btn-img">
+                                    <img src="assets/img/tropicaltanspa_01.jpg" alt="tanning packages">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abt-web-details">
+                                <span class="highlight">Packages</span>
+                                <h2 class="page-h">Our Tanning Packages</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam eos
+                                    dolorem dolore delectus tempore quia ullam culpa. Mollitia excepturi ipsum
+                                    adipisci natus reiciendis omnis voluptatem ipsam labore tenetur maiores.
+                                </p>
+                                <div class="web-btn text-left">
+                                    <a class="web-a" href="gallery.php">View More +</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- =====tt tanning rules ====== -->
     <section class="abt-us-rules">
         <div class="container">
@@ -103,7 +161,7 @@
                     <div class="col-lg-2 col-6">
                         <div class="mid-box">
                             <img src="assets/img/spa-4.png" alt="spa-icon">
-                            <strong>Spray Tanning</strong>
+                            <strong>Friendly Staff</strong>
                         </div>
                     </div>
                     <div class="col-lg-2 col-6">
@@ -119,76 +177,7 @@
         </div>
     </section>
 
-    <section class="tanning-pck">
-        <div class="container">
-            <div class="end-wlcm-wrap">
-                <!-- <span class="highlight">Tanning Packages</span> -->
-                <h2 class=" mb-4 page-h">Tanning Packages And Hours</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="end-wlcm-box">
-                            <div class="end-wlcm-pic">
-                                <img src="assets/img/tropicaltanspa_05.jpg" alt="welcome photo">
-                            </div>
-                            <div class="end-wlcm-text">
-                                <span class="small-h">Aqua Massage</span>
-                                <p>Massage is done fully clothed and dry!</p>
-                                <div class="tanspa-pg">
-                                    <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 10 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 20 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 30 Minutes</li>
-                                    </ul>
-                                    <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 40 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 60 Minutes</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="end-wlcm-box">
-                            <div class="end-wlcm-pic">
-                                <img src="assets/img/tropicaltanspa_11.jpg" alt="welcome photo">
-                            </div>
-                            <div class="end-wlcm-text">
-                                <span class="small-h">Tropical TanSpa Hours</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <ul class="time-ul">
-                                    <li><i class="fa-regular fa-clock"></i> MON - SUN : 09:00 AM - 07:00
-                                        PM</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="end-wlcm-box">
-                            <div class="end-wlcm-pic">
-                                <img src="assets/img/tropicaltanspa_07.jpg" alt="welcome photo">
-                            </div>
-                            <div class="end-wlcm-text">
-                                <span class="small-h">Tannning Packages</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <div class="tanspa-pg">
-                                    <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 70 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 100 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 200 Minutes</li>
-                                    </ul>
-                                    <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 300 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 400 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 500 Minutes</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php
