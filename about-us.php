@@ -27,6 +27,7 @@
     <section class="main-abt-us">
         <div class="container">
             <!-- <span class="highlight">About Us</span> -->
+            <span class="highlight">Tropical TanSpa</span>
             <h1 class="page-h">Who We Are </h1>
             <p>Tropical Tanspa, LLC has over 30 years of experience in the tanning industry. We are a family owned
                 business
@@ -44,21 +45,27 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="abt-why-us">
-                                <span class="highlight">Tropical TanSpa</span>
                                 <h2 class="page-h">Why Choose Us</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa at ex
-                                    explicabo, quam rem necessitatibus sint laudantium cum a voluptates, expedita,
-                                    placeat repudiandae quo provident quod odio sunt voluptatibus?</p>
-                                <div class="web-btn text-left">
-                                    <a class="web-a" href="gallery.php">View More +</a>
-                                </div>
+                                <p>Looking for the perfect place to get your tan on? Look no further than Tropical
+                                    Tanspa LLC in Waverly! We've got everything you need for your next tanning
+                                    adventure.Tropical Tanspa LLC is not just your average tanning salon. We pride
+                                    ourselves on creating a tropical oasis right in the heart of Waverly. Our mission is
+                                    to provide our customers with a rejuvenating and relaxing tanning experience that
+                                    leaves you feeling refreshed and glowing.
+
+                                    What sets us apart? Well, for starters, our state-of-the-art tanning equipment is
+                                    top-of-the-line, ensuring that you achieve that perfect, sun-kissed glow every time.
+                                    Our friendly and knowledgeable staff are always on hand to assist you and make sure
+                                    you get the most out of your tanning session. Call now to book your next tanning
+                                    session with us.</p>
+
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="abt-detail-img">
                                 <div class="abt-package abt-img data-container">
                                     <div class="btn-img">
-                                        <img src="assets/img/happy-c.png" alt="happy client">
+                                        <img src="assets/img/tropicaltanspa_11.jpg" alt="happy client">
                                     </div>
                                 </div>
                                 <div class="abt-blnk-box"></div>
@@ -67,34 +74,51 @@
                     </div>
                 </div>
 
-                <div class="abt-pck-dwn-content">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="abt-dwm-img abt-img data-container">
-                                <div class="btn-img">
-                                    <img src="assets/img/tropicaltanspa_01.jpg" alt="tanning packages">
-                                </div>
-                            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========tt circle details =========== -->
+    <section class="abt-pg-circle">
+        <div class="wlcm-mid-part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="mid-box">
+                            <img src="assets/img/spa-1.png" alt="spa-icon">
+                            <strong>Body Relief</strong>
                         </div>
-                        <div class="col-md-6">
-                            <div class="abt-web-details">
-                                <span class="highlight">Packages</span>
-                                <h2 class="page-h">Our Tanning Packages</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam eos
-                                    dolorem dolore delectus tempore quia ullam culpa. Mollitia excepturi ipsum
-                                    adipisci natus reiciendis omnis voluptatem ipsam labore tenetur maiores.
-                                </p>
-                                <div class="web-btn text-left">
-                                    <a class="web-a" href="gallery.php">View More +</a>
-                                </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="mid-box">
+                            <img src="assets/img/spa-2.png" alt="spa-icon">
+                            <strong>Family Business</strong>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-6">
+                            <div class="mid-box">
+                                <img src="assets/img/spa-3.png" alt="spa-icon">
+                                <strong>Free Towel</strong>
                             </div>
+                        </div> -->
+                    <div class="col-lg-3 col-6">
+                        <div class="mid-box">
+                            <img src="assets/img/spa-4.png" alt="spa-icon">
+                            <strong>Friendly Staff</strong>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="mid-box">
+                            <img src="assets/img/spa-5.png" alt="spa-icon">
+                            <strong>Tanning Accessories</strong>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- =====tt tanning rules ====== -->
     <section class="abt-us-rules">
         <div class="container">
@@ -134,50 +158,9 @@
         </div>
     </section>
 
-    <!-- =========tt circle details =========== -->
-    <section class="abt-pg-circle">
-        <div class="wlcm-mid-part line-box">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-2 col-6">
-                        <div class="mid-box">
-                            <img src="assets/img/spa-1.png" alt="spa-icon">
-                            <strong>Body Relief</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="mid-box">
-                            <img src="assets/img/spa-2.png" alt="spa-icon">
-                            <strong>Family Business</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="mid-box">
-                            <img src="assets/img/spa-3.png" alt="spa-icon">
-                            <strong>Free Towel</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="mid-box">
-                            <img src="assets/img/spa-4.png" alt="spa-icon">
-                            <strong>Friendly Staff</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="mid-box">
-                            <img src="assets/img/spa-5.png" alt="spa-icon">
-                            <strong>Tanning Accessories</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-1"></div>
 
-                </div>
-            </div>
-        </div>
-    </section>
 
-    
+
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php

@@ -24,17 +24,17 @@
     <!-- banner and header page -->
 
     <!-- =======Our Gallery section ====== -->
-    <section class="isotope-project container-md-xxl">
+    <section class="isotope-project container-md-xxl gallery-box">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s">
             <p class=" mb-2 highlight">Our Gallery</p>
-            <h3 class="display-5 mb-2 page-h">Photo Of The Day</h3>
+            <h1 class="display-5 mb-2 page-h">Photo Of The Day</h1>
         </div>
         <div class="portfolio-menu">
             <ul class="isotope-ul">
                 <li class="active isotope-li" data-filter="*">All</li>
-                <li data-filter=".one-iso">One Title</li>
-                <li data-filter=".two-iso">Two Title</li>
-                <li data-filter=".three-iso">Three Title</li>
+                <li data-filter=".one-iso">Tanning Beds</li>
+                <li data-filter=".two-iso">UV tanning Units</li>
+                <li data-filter=".three-iso">Our SPA Store</li>
             </ul>
         </div>
 
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-4 w-content">
-                    <div class="item three-iso">
+                    <div class="item two-iso">
                         <a href="assets/img/tropicaltanspa_05.jpg" class="image-link-js test-popup-link" id="my-popup"
                             data-lightbox="pop-images" title="pop images">
                             <img class="pop-images aos-init aos-animate" src="assets/img/tropicaltanspa_05.jpg" alt=""
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-4 w-content">
-                    <div class="item two-iso">
+                    <div class="item three-iso">
                         <a href="assets/img/tropicaltanspa_09.jpg" class="image-link-js test-popup-link" id="my-popup"
                             data-lightbox="pop-images" title="pop images">
                             <img class="pop-images aos-init aos-animate" src="assets/img/tropicaltanspa_09.jpg" alt=""

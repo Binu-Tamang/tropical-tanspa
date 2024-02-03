@@ -50,7 +50,7 @@
             </div>
             <div class="banner-context">
                 <span>Welcome To Tropical TanSpa</span>
-                <p>
+                <p class="d-none d-md-block">
                     Tropical Tanspa, LLC. brings 30+ years of expertise to the tanning industry. Our family-owned
                     business offers 9 cutting-edge UV tanning units, including stand-up options. Experience friendly
                     service, the latest technology, and a range of tanning solutions with us.</p>
@@ -130,11 +130,10 @@
                             <div class="abt-why-us">
                                 <span class="highlight">Tropical TanSpa</span>
                                 <h2 class="page-h">Why Choose Us</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa at ex
-                                    explicabo, quam rem necessitatibus sint laudantium cum a voluptates, expedita,
-                                    placeat repudiandae quo provident quod odio sunt voluptatibus?</p>
+                                <p>Looking for the perfect place to get your tan on? Look no further than Tropical Tanspa LLC in Waverly! We've got everything you need for your next tanning adventure.Tropical Tanspa LLC is not just your average tanning salon. We pride ourselves on creating a tropical oasis right in the heart of Waverly. Our mission is to provide our customers with a rejuvenating and relaxing tanning experience that leaves you feeling refreshed and glowing.
+</p>
                                 <div class="web-btn text-left">
-                                    <a class="web-a" href="gallery.php">View More +</a>
+                                    <a class="web-a" href="about-us.php">View More +</a>
                                 </div>
                             </div>
                         </div>
@@ -164,21 +163,33 @@
                             <div class="abt-web-details">
                                 <span class="highlight">Packages</span>
                                 <h2 class="page-h">Our Tanning Packages</h2>
-                                
+
                                 <div class="tanspa-pg">
                                     <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 75 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 100 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 200 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>75 Minutes</p>
+                                        </li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>100 Minutes</p>
+                                        </li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>200 Minutes</p>
+                                        </li>
                                     </ul>
                                     <ul class="time-ul">
-                                        <li><i class="fa-regular fa-clock"></i> 300 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 400 Minutes</li>
-                                        <li><i class="fa-regular fa-clock"></i> 500 Minutes</li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>300 Minutes</p>
+                                        </li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>400 Minutes</p>
+                                        </li>
+                                        <li><i class="fa-regular fa-clock"></i>
+                                            <p>500 Minutes</p>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="web-btn text-left">
-                                    <a class="web-a" href="gallery.php">View More +</a>
+                                    <a class="web-a" href="service.php">View More +</a>
                                 </div>
                             </div>
                         </div>
@@ -198,9 +209,9 @@
         <div class="portfolio-menu">
             <ul class="isotope-ul">
                 <li class="active isotope-li" data-filter="*">All</li>
-                <li data-filter=".one-iso">One Title</li>
-                <li data-filter=".two-iso">Two Title</li>
-                <li data-filter=".three-iso">Three Title</li>
+                <li data-filter=".one-iso">Tanning Beds</li>
+                <li data-filter=".two-iso">UV Tanning Units</li>
+                <li data-filter=".three-iso">Our SPA Store</li>
             </ul>
         </div>
 
@@ -225,7 +236,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-4 w-content">
-                    <div class="item three-iso">
+                    <div class="item two-iso">
                         <a href="assets/img/tropicaltanspa_05.jpg" class="image-link-js test-popup-link" id="my-popup"
                             data-lightbox="pop-images" title="pop images">
                             <img class="pop-images aos-init aos-animate" src="assets/img/tropicaltanspa_05.jpg" alt=""
@@ -243,7 +254,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-4 w-content">
-                    <div class="item two-iso">
+                    <div class="item three-iso">
                         <a href="assets/img/tropicaltanspa_09.jpg" class="image-link-js test-popup-link" id="my-popup"
                             data-lightbox="pop-images" title="pop images">
                             <img class="pop-images aos-init aos-animate" src="assets/img/tropicaltanspa_09.jpg" alt=""
@@ -288,7 +299,7 @@
     <!-- =====section banner html -->
     <section class="banner-bg">
         <div class="container">
-            <span>Get Up To 50% Off On Our Tanning Packages </span>
+            <span class="page-h"> Gift Certificates are available upon request</span>
         </div>
     </section>
 
@@ -300,10 +311,10 @@
                     <div class="testimonial-left">
                         <span class="highlight">Testimonial</span>
                         <h4 class="page-h">What People Say About Us</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore et
-                            dolore magna</p>
+                            dolore magna</p> -->
                         <div class="web-a-wrap">
                             <a class="web-a"
                                 href="https://www.google.com/search?q=tropical+tanspa&oq=tropical+tanspa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMgYIAhBFGEAyBggDEEUYPDIGCAQQRRg80gEINTkwM2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x87f009b683dac989:0x624e97c093048507,1,,,,">View

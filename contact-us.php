@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="location-details">
                                     <span>Phone Number:</span>
-                                    <a href="tel:123 456 789">123 456 789</a>
+                                    <a href="tel: 319-352-2439"> 319-352-2439</a>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="location-details">
                                     <span>Our Email:</span>
-                                    <a href="mail:example@gmail.com">example@gmail.com</a>
+                                    <a href="mail:example@gmail.com">tropicaltanspa@live.com</a>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                 <div class="location-details">
                                     <span>Our Location:</span>
                                     <a href="#">
-                                        Collegetowne Plaza (South side)</a>
+                                    134 10th St SW, Waverly, IA 50677</a>
                                 </div>
                             </div>
                         </div>
